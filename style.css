@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f7;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-danhsach {
+  border: 1px solid #000;
+  margin-top: 100px;
+  background-color: #fff;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #000;
+}
+
+.table-text {
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.btn-them {
+  background: none;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  background: red;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.task-item {
+  padding: 10px;
+  border-top: 1px solid #000;
+  position: relative;
+}
+
+.btn-sua {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 13px;
+
+  cursor: pointer;
+}

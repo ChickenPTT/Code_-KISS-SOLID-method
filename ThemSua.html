@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/ThemSua.css" />
+    <title>Quản Lý Nhiệm Vụ Cá Nhân</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="header-img" src="/logo.png" alt="logo" />
+      <p class="header-text">Danh sách nhiệm vụ</p>
+    </div>
+
+    <div class="container">
+      <h1 class="text">Thêm và Sửa Nhiệm Vụ</h1>
+      <div class="form-wrapper">
+        <form class="form-nhiemvu">
+          <div class="form-group">
+            <label for="tieude">Tiêu Đề:</label>
+            <input type="text" id="tieude" name="tieude" />
+          </div>
+          <div class="form-group">
+            <label for="mota">Mô tả:</label>
+            <textarea id="mota" name="mota" rows="6"></textarea>
+          </div>
+          <div class="form-buttons">
+            <a href="/QuanLyNhiemVu.html">
+              <button type="button" class="btn red">Thoát</button>
+            </a>
+            <a href="/QuanLyNhiemVu.html">
+              <button type="submit" class="btn red">Hoàn tất</button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
