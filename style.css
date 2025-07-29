@@ -79,3 +79,10 @@ body {
 
   cursor: pointer;
 }
+.btn-xoa {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  font-size: 13px;
+  cursor: pointer;
+}
